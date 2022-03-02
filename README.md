@@ -17,6 +17,10 @@ RecursiveLU是基于ARMv8处理器架构的SIMD汇编优化程序，实现了现
 ``` Shell
 gcc -O3 main.c -o main
 ```
+## 执行
+``` Shell
+./main -o 矩阵除数 -n 循环次数
+```
 ## 实验环境
 | 属性 	| 参数 	|
 |:---:	|:---:	|
